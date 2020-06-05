@@ -24,9 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "../friuteStall/node_modules/bootstrap/dist/css/bootstrap.css"            ],
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "friuteStall"
+    }
+  },
+  "defaultProject": "friuteStall",
+  "cli": {
+    "analytics": "a91658ec-8c5c-4a94-ada9-426ea3528af3"
+  }
 }

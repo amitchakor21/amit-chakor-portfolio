@@ -1,0 +1,104 @@
+
+.align-center1{
+    text-align: center;
+    
+}
+
+.ngb-carousel{
+margin: 2%;
+padding: 1%;
+width: 70%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+.myalign{
+    /* width: 70%; */
+    display: block;
+}
+
+
+.carousel{
+    width:90%; /*varrry this to adjust length*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+  }
+
+  .row {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.text-mcdr{
+  text-align: right;
+  vertical-align: auto;
+}
+
+.text-mcdl{
+  text-align: right;
+  vertical-align: auto;
+}
+
+.section-title{
+  font-family: fantasy;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration-color: sienna;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .text-mcdr{
+    text-align: center;
+    vertical-align: auto;
+  }
+  
+  .text-mcdl{
+    text-align: center;
+    vertical-align: auto;
+  }
+  img{
+    padding:20px;
+  }
+} 
+@media (max-width: 767px){
+.visible-xs {
+    display: block!important;
+}
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.btn-blue-purple-gradient,.btn-my{
+background: linear-gradient(135deg, #d6ea08, #ef00ff);
+border-style: groove;
+text-decoration-color: blue;
+}
+
+#mybutton{
+  border-radius: 15px;
+
+}

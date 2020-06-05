@@ -1,0 +1,26 @@
+.navbar-brand{
+    font-family: fantasy;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav{
+color: seagreen;
+}
+
+.navbar-custom {
+    background: #ff5500;
+}
+
+.row {
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 100%;
+
+}
