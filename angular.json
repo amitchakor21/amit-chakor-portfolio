@@ -24,10 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "../amit-chakor-portfolio/node_modules/bootstrap/dist/css/bootstrap.css"            ],
-            "scripts": [
+              "src/styles.css" ,
+              "../amit-chakor-portfolio/node_modules/bootstrap/dist/css/bootstrap.min.css" 
             ]
+
           },
           "configurations": {
             "production": {
