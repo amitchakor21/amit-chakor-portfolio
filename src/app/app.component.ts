@@ -6,7 +6,7 @@ import { Component, AfterViewInit, ElementRef } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  title = 'friuteStall';
+  title = 'amit-chakor-portfolio';
   
   constructor(private elementRef: ElementRef){
   }
