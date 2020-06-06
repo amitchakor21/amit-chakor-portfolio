@@ -11,14 +11,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "cd amit-chakor-portfolio && npm install",
-    "postinstall": "ng build --aot -prod"
-
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
-
     "@angular/animations": "~9.1.6",
     "@angular/cdk": "^9.2.4",
     "@angular/cli": "~9.1.5",
@@ -34,6 +30,7 @@
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "angular-bootstrap-md": "^9.3.1",
     "bootstrap": "^4.5.0",
+    "mkdirp": "^1.0.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "typescript": "~3.8.3",
@@ -55,5 +52,5 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0"
-    }
+  }
 }
