@@ -32,8 +32,8 @@ width: 70%;
   }
 
   .row {
-    margin-right: 10px;
-    margin-left: 10px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
     width: 100%;
 
 }
@@ -100,5 +100,31 @@ text-decoration-color: blue;
 
 #mybutton{
   border-radius: 15px;
+  border: solid black 1px;
+
+}
+
+
+#mybutton:hover{
+  border: solid red 1px;
+  box-shadow: 1px 1px 1px black, 0 0 5px blue, 0 0 5px darkblue;
+}
+
+#frontImage{
+  /* style="width: 100vw; margin-top: 0px; height: 100vh;" */
+
+  /* background-image: url('/assets/images/bg1.jpg'); */
+
+
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  /* transform: translateZ(-500px) scale(2); */
+  max-width: 100%;
+  position: absolute;
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 
 }

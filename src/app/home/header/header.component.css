@@ -1,26 +1,144 @@
+
+.cont1{
+    position: absolute; 
+    width: 100%;
+    z-index:100;
+    top: 40vh;
+    max-width: 100%;
+}
+.title{
+    text-align: center;
+    text-shadow: white;
+    color:rgb(200, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleDesc{
+    color: rgb(187, 144, 144);
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: rgb(241, 208, 208);
+}
+
+nav{
+    /* width: 50vw; */
+    animation: 2s slide-right 2s forwards ease-out;
+
+}
+
+@keyframes slide-right{
+    from {
+        margin-left: -100vw;
+      }
+    
+      to {
+        margin-left: 0;
+      }
+}
+
+.nameOnImage{
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    /* margin-left: 5vw; */
+    /* margin-right: 50vw; */
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    /* border-left: 5px solid rgb(187, 144, 144); */
+    max-width: 100%;
+}
+
+
+
+/* .row {
+    max-width: 100%;
+} */
+
+
 .navbar-brand{
     font-family: fantasy;
 }
 
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
+a.color1{
+    color: rgb(187, 144, 144);
 }
 
-nav{
-color: seagreen;
+/* .navTextColor{
+    color: #fff;
+} */
+
+
+
+.navbar_scrolledDown_bgcolor1{
+    background-color: black;
+    height: default;
+    transition: height 1s ease-in-out;
+    /* color: white; */
 }
 
-.navbar-custom {
-    background: #ff5500;
+.navbar_scrolledUp_bgcolor2{
+    background-color: (0,0,0,0);
+    height: 20vh;
+    transition: height 1s ease-in-out;
+        /* color: beige; */
 }
 
-.row {
-    margin-right: 10px;
-    margin-left: 10px;
-    max-width: 100%;
 
+#navbar {
+    overflow: hidden;
+    transition: 1s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;    
+    top: 0; /* At the top */
+    transition: top 1s; /* Transition effects when sliding down (and up) */
+    /* z-index: 1000; */
+}
+
+#navbar a:hover {
+border: 4px;
+border-bottom:  white 2px ;
+color: white;
+}
+  
+
+
+/* .myshadow{
+    text-shadow: 0 0 3px red, 0 0 3px yellow, 0 0 3px green , 0 0 5px black;
+} */
+
+
+@media only screen and (max-width: 600px) {
+  }
+
+
+  /* .icon{
+     padding-top: 20px;
+     padding-left: 20px;
+      width: 40px;
+      height: 40px;
+  } */
+
+  .bgimage{
+      width: 100vw;
+      height: 100vh;
+      max-width: 100%;
+      background-image: linear-gradient(45deg, #ffffff 0%, #f0f0fa 74%);
+  }
+
+  .glow     {
+    /* font-size: 80px; */
+    color: #fff;
+    /* text-align: center; */
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 2px #fac7c7, 0 0 3px #fac7c7, 0 0 4px #fac7c7, 0 0 5px #fac7c7, 0 0 6px #fac7c7, 0 0 7px #fac7c7;
+    }
+    to {    
+        text-shadow: 0 0 2px #fff, 0 0 3px #f36a6a, 0 0 4px #f36a6a, 0 0 5px #f36a6a, 0 0 6px #f36a6a, 0 0 7px #f36a6a, 0 0 8px #f36a6a;
+    }
 }

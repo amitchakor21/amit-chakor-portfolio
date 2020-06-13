@@ -1,8 +1,3 @@
-body{
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: tomato;
-} 
 
 html {
     max-width: 100%;
@@ -10,11 +5,10 @@ html {
 }
 
 div{
-    /* background-image: url("/assets/images/first.jpg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;  */
-    background-color: #EDF5E1;
+    max-width: 100%;
 }
 
 
+.bgImage{
+    opacity: 0.2;
+}

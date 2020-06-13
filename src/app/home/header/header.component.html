@@ -1,31 +1,106 @@
 
-<nav class="navbar navbar-custom navbar-expand-sm navbar-light navbar-light" style="background-color: #e3f2fd;">
-    <img class="logo" [src]="logo">
-    <a class="navbar-brand" href="#">Krushna Fruit Stall</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                    <a class="dropdown-item" href="#">Action 1</a>
-                    <a class="dropdown-item" href="#">Action 2</a>
-                </div>
-            </li>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-        </ul>
+
+<div id="header">
+        <!-- <div id="frontImage"></div> -->
+        <!-- <div>
+            <img id="frontImage"  [src]="front" alt="Front image" class="frontImage"  style="z-index: 5000;">
+        </div> -->
+    
+        <!-- <div id="frontHorizontal">
+            <div>
+                <img id="frontImageLeftHorizontal"  [src]="frontLeft" alt="Front image" class="frontImage">
+            </div>
+            <div >
+                <img id="frontImageRightHorizontal"  [src]="frontRight" alt="Front image" class="frontImage">
+            </div>
+        </div> -->
+        <div class="bgimage" style="position: absolute;">
+        </div>
         
+    
+        <div>
+            <nav id="navbar" style="z-index:10000"
+                [ngClass]="{'navbar_scrolledDown_bgcolor1': scrolledDown, 'navbar_scrolledUp_bgcolor2':!scrolledDown}" 
+                class="navbar navbar-custom navbar-expand-sm navbar-light" >
+            
+                <a class="navbar-brand color1" href="#" >Amit Chakor</a>
+            
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse " id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
+                    <!-- [ngClass]="{'navTextColor': scrolledDown,'navTextColor1': !scrolledDown }"
+                    > -->
+                        <li class="nav-item">
+                            <button class="btn primary" (click)="scroll('trial')">About</button>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#trial"  style="color: rgb(187, 144, 144); scroll-behavior: smooth;">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: rgb(187, 144, 144);" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color1" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(187, 144, 144);">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <!-- <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form> -->
+                    </ul>   
+                </div>
+            </nav>
+        </div>
+
+        <div class="container cont1">
+            <div class="row justify-content-sm-center align-items-center" >
+                <div>
+                    <h1 class="title">Hii Amit Here</h1>
+                    <h3 class="titleDesc">Innovator, Developer, Passionate Coder</h3>
+                    <div class="container">
+                        <div class="col-md-12 mb-4">
+
+                            <button type="button" class="btn btn-elegant"><i class="far fa-user pr-2" aria-hidden="true"></i>User</button>
+                            <button type="button" class="btn btn-unique"><i class="fas fa-wifi pr-2" aria-hidden="true"></i>Wifi</button>
+                            <button type="button" class="btn btn-pink"><i class="fas fa-plane pr-2" aria-hidden="true"></i>Plane</button>
+                            <button type="button" class="btn btn-purple"><i class="fas fa-heart pr-2" aria-hidden="true"></i>Heart</button>
+                        
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div style="height: 100vh;">
+
+        </div>
+    
+    
+    <!-- <div class="" style="width: 300px; height: 300px; border: solid 5px black; transform: perspective(100px) translate3D(0,0,-100px) scale(2)" >
+        <h1 style="padding: center;">HEllo</h1>
     </div>
-</nav>
+    <div class="" style="width: 300px; height: 300px; border: solid 5px black;">
+        <h1 style="padding: center;">HEllo</h1>
+    </div> -->
+    
+    
+    <!-- <div id="vertical">
+        <h1>HEllo</h1>
+    </div>
+
+    <div id="vertical">
+        <h1>HEllo</h1>
+    </div> -->
+</div>
+
+
+<div #target>Your target</div>
