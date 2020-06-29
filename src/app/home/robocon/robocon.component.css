@@ -1,0 +1,74 @@
+
+/* 
+* {
+  border: 1px solid red;
+  padding: 0.2em;
+} */
+
+.section-title{
+font-family: fantasy;
+margin-top: 5px;
+margin-bottom: 20px;
+text-decoration-color: sienna;
+}
+
+.text-mcdr{
+  text-align: right;
+  vertical-align: auto;
+}
+
+.text-mcdl{
+  text-align: right;
+  vertical-align: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+.text-mcdr{
+  text-align: center;
+  vertical-align: auto;
+}
+
+.text-mcdl{
+  text-align: center;
+  vertical-align: auto;
+}
+img{
+  padding:20px;
+}
+} 
+@media (max-width: 767px){
+.visible-xs {
+  display: block!important;
+}
+.box{
+  padding-top: 10vh;
+}
+
+}
+
+img {
+max-width: 100%;
+height: auto;
+/* width: auto\9; ie8 */
+text-align: center;
+}
+
+#mybutton:hover{
+box-shadow: 1px 1px 1px black, 0 0 5px blue, 0 0 5px darkblue;
+}
+
+
+.column-flexbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

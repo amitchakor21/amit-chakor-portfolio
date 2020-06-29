@@ -1,1 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+.box{
+    min-height: 100vh;
+    padding-top: 10vh;
+}
 /* You can add global styles to this file, and also import other style files */
+h1{
+    font-size: calc(32px + 6 * ((100vw - 500px) / 680));
+}
+
+h2{
+    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+}
+
+h3{
+    font-size: calc(18.72px + 6 * ((100vw - 320px) / 680));
+}
+
+h4{
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+}
+
+h5{
+    font-size: calc(13.28px + 6 * ((100vw - 320px) / 680));
+}
+
+h6{
+    font-size: calc(10.72px + 6 * ((100vw - 320px) / 680));
+}
+
+p{
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button,.btn {
+    font-family: 'Montserrat';
+
+}
+
+
+/* * {
+    border: 1px solid #f00 !important;
+  } */

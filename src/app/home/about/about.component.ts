@@ -1,3 +1,5 @@
+'use strict'
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  img1='/assets/images/frontRight1.jpg';
   constructor() { }
 
   ngOnInit(): void {

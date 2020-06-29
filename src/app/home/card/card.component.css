@@ -1,9 +1,62 @@
-.card1{
-    margin-top: 50px;
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-.row {
-    /* margin-right: 10px;
-    margin-left: 10px; */
-    max-width: 100%;
+
+
+  .col-my {
+    max-width: 40vw;
+    min-width: 300px;
+    padding: 5px 20px 5px 20px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+/* 
+  .col-my:nth-of-type(1) {
+    margin-left: 30px !important;
+  } */
+
+  .shade{
+      padding: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+img{
+    
+      position: relative;
+      top:50px;
+      /* left: calc( 16.66vw - 60px ) ; */
+      height: 100px;
+      width: 100px;
+      align-self: center;
+      border: 5px solid white;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px 0 rgba(109, 91, 91, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadeOut{
+    height: auto;
+}
+
+.ref{
+    height: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+/* 
+    img{
+        left: calc(50vw - 50px ) 
+    } */
+
+    .col-my {
+        padding: 5px 10px 5px 10px !important;
+      }
 
 }
+  /* * {   
+    border: 1px solid black;
+} */
