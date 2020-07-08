@@ -16,9 +16,6 @@ import { MinLengthValidator } from '@angular/forms';
 export class HeaderComponent implements OnInit, AfterViewInit {
 
   logo = '/assets/images/logo.png';
-  front = '/assets/images/frontnight.jpg';
-  frontLeft = '/assets/images/frontLeft.jpg';
-  frontRight = '/assets/images/frontRight.jpg';
   lastscroll = 0;
   direction ="up"
   header;

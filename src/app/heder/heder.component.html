@@ -1,0 +1,16 @@
+<div style="position: absolute;" id="header">
+    <div style="position: absolute;">
+        <div [ngClass]="{'transparent': transparent,'bg':!transparent }" id="headerBg">
+        </div>
+    </div>
+    <div class="header"style="height:100px; position: fixed; top:0px; width:100%; z-index:1000;">
+        <div  class="items" style="position: relative; background-color: transparent;">
+            <img class="img" [src]=logo alt="logo">
+        </div>
+        <div class="items">
+            <a href="./#about" [ngClass]="{'link-items-out': linkItemsOut,'link-items-in': !linkItemsOut}">About</a>
+            <a href="./#timeline" [ngClass]="{'link-items-out': linkItemsOut,'link-items-in': !linkItemsOut}">Projects</a>
+            <a href="./#robocon" [ngClass]="{'link-items-out': linkItemsOut,'link-items-in': !linkItemsOut}">RoboLove</a>
+        </div>
+    </div>
+</div>

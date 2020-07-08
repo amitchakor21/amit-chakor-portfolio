@@ -1,0 +1,162 @@
+
+
+
+.title{
+    color:rgb(200, 180, 180);
+}
+
+.titleDesc{
+    color: rgb(187, 144, 144);
+}
+
+.row{
+    max-width: 100vw;
+}
+
+.row-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* *{
+    border: 1px solid red;
+} */
+.header{
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(247, 210, 208); */
+}
+
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.img{
+    /* height: 60%;
+    width :auto; */
+    animation-name: imgTransform;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes imgTransform{
+    0%{position: absolute;
+        height: 300px;
+        width: 300px;
+        left: calc(45vw - 150px);
+        top: calc(50vh - 150px);
+        transform: rotate(0deg);
+        }
+    5%{
+        /* height: 300px;
+        width: 300px; */
+        /* left: calc(50vw - 150px);
+        top: calc(50vh - 150px); */
+        transform: rotate(45deg);    }
+    22%{
+        /* height: 300px;
+        width: 300px; */
+        /* left: calc(50vw - 150px);
+        top: calc(50vh - 150px); */
+        transform: rotate(-45deg);
+    }
+    30%{
+        /* height: 300px;
+        width: 300px; */
+        /* left: calc(50vw - 150px);
+        top: calc(50vh - 150px); */
+        transform: rotate(45deg);
+    }
+    
+    52%{
+        /* height: 300px;
+        width: 300px; */
+        /* left: calc(50vw - 150px);
+        top: calc(50vh - 150px); */
+        transform: rotate(-45deg);
+    }
+    60%{position: absolute;
+        height: 300px;
+        width: 300px;
+        left: calc(45vw - 150px);
+        top: calc(50vh - 150px);
+        transform: rotate(0deg);
+    }
+    100%{position: relative;
+        height: 50px;
+        width: 50px;
+        left: 0;
+        top: 0;
+        transform: rotate(0deg);
+    }
+}
+
+.items{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .link-items{
+    padding: 0px 1.8vw;
+} */
+
+.link-items-out{
+    padding: 0px 1vw;
+    animation-name: link-items-out;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+}
+
+@keyframes link-items-out{
+    from {padding:0 1vw;}
+    to {padding: 0 1.8vw;}
+}
+
+.link-items-in{
+    padding: 0px 1.8vw;
+    animation-name: link-items-in;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+}
+
+@keyframes link-items-in{
+    from {padding:0 1.8vw;}
+    to {padding: 0 1vw;}
+}
+
+
+/* 
+.link{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+  
+  /* The element to apply the animation to */
+ 

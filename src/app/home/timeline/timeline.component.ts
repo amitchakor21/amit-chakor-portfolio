@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {timeline} from 'angular-timeline';
 
 @Component({
   selector: 'app-timeline',

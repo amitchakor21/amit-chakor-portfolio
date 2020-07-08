@@ -1,26 +1,21 @@
-
-
-.align-center1{
-    text-align: center;
-    
-}
-
+/* *{
+  border: 1px solid orange;
+}  */
 .section-title{
   margin-top: 20px;
   margin-bottom: 20px;
   text-decoration-color: sienna;
   text-shadow: 0px 2px 4px rgba(71, 69, 69, 0.4) , 0 4px 8px rgb(0,0,0,0.1);
 }
-  .text-mcdr{
-    text-align: right;
-    vertical-align: auto;
-  }
-  
-  .text-mcdl{
-    text-align: right;
-    vertical-align: auto;
-  }
 
+div{
+  max-width: 100%;
+}
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 img {
   max-width: 100%;
@@ -28,52 +23,44 @@ img {
   text-align: center;
   border-radius: 4px;
   box-shadow: 0 2px 4px #111111, 0 4px 8px grey;
-
 }
 
+p{
+  line-height: 180%;
+  white-space: 250%;
+}
 
-  
+/* span{
+  padding-right: 5px;
+} */
+
 .mycontainer{
   padding: 0px 50px 0px 20px;
 }
-
-
-/* * {
-  border: 1px solid #f00 !important;
-}  */
-
-
-
 
 #mybutton:hover{
   box-shadow: 1px 1px 1px black, 0 0 5px blue, 0 0 5px darkblue;
 }
 
+.items{
+  margin: 0;
+  padding: 0;
+}
 
+button{
+  font-size: calc((12px + 6 * ((100vw - 320px) / 680))*0.8);
+
+}
 
 @media only screen and (max-width: 767px) {
-  .text-mcdr{
-    text-align: center;
-    vertical-align: auto;
-  }
-  
-  .text-mcdl{
-    text-align: center;
-    vertical-align: auto;
-  }
-
   .mycontainer{
     padding: 0px 20px;
   }
 
   img{
-    height: 50vh;
+    height: 5s0vh;
     width: 50vw;
-    margin-bottom: 10vh;
     object-fit: cover;
+    margin-bottom: 10vh;
   } 
-
-  .mb30{
-    padding: 0px 8vw;
-  }
 } 

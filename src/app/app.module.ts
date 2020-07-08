@@ -15,6 +15,13 @@ import { TimelineComponent } from './home/timeline/timeline.component';
 import { RoboconComponent } from './home/robocon/robocon.component';
 import { SvgRepeaterComponent } from './home/svg-repeater/svg-repeater.component';
 import { SvgRepeaterBottomComponent } from './home/svg-repeater-bottom/svg-repeater-bottom.component';
+import { RoboconpageComponent } from './roboconpage/roboconpage.component';
+import { HeroComponent } from './home/hero/hero.component';
+import { HederComponent } from './heder/heder.component';
+import { FoterComponent } from './foter/foter.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 @NgModule({
@@ -28,7 +35,14 @@ import { SvgRepeaterBottomComponent } from './home/svg-repeater-bottom/svg-repea
     TimelineComponent,
     RoboconComponent,
     SvgRepeaterComponent,
-    SvgRepeaterBottomComponent
+    SvgRepeaterBottomComponent,
+    RoboconpageComponent,
+    HeroComponent,
+    HederComponent,
+    FoterComponent,
+    NotFoundComponent,
+    DisclaimerComponent,
+    PrivacyComponent
     ],
   imports: [
     BrowserModule,
