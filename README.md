@@ -1,31 +1,15 @@
-# amit-chakor-portfolio
+# Amit Chakor Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
+My old portfolio based on AngularJS
 
-## Development server
+Thought it never made to the production, but I got to learn CSS and Javascript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project is made with HTML, CSS, AngularJs, Bootstrap
 
-## Code scaffolding
+## Screens
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-ng serve --proxy-config proxy.conf.json
-use for generating
+[![Screenshot](./screenshots/main.png)](http://amit-chakor-portfolio.herokuapp.com/)
+[![Screenshot](./screenshots/info.png)](http://amit-chakor-portfolio.herokuapp.com/#about)
+[![Screenshot](./screenshots/timeline.png)](http://amit-chakor-portfolio.herokuapp.com/#timeline)
+[![Screenshot](./screenshots/robocon.png)](http://amit-chakor-portfolio.herokuapp.com/#robocon)
+[![Screenshot](./screenshots/footer.png)](http://amit-chakor-portfolio.herokuapp.com/)
